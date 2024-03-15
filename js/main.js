@@ -114,7 +114,7 @@ const openModal = (rocketDetails) => {
     dialogSuccess.innerText = successful_launches;
     dialogFailure.innerText = failed_launches;
     dialogPartialFailure.innerText = partially_failed_launches;
-    dialogManufacturer.innerText = `Producent: ${manufacturer}`;
+    dialogManufacturer.innerText = `Fabrikant: ${manufacturer}`;
     dialogOrigin.innerText = `Herkomst: ${origin}`;
     dialogHeight.innerText = `Hoogte: ${height}m`;
     dialogMaxPayload.innerText = `Capaciteit: ${Number(max_payload).toLocaleString()}kg`;

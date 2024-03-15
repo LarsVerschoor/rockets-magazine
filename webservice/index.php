@@ -1,6 +1,4 @@
 <?php
-//Require functions for actions
-//require_once "includes/rockets.php";
 /** @var $db mysqli */
 require_once "includes/database.php";
 
